@@ -1,0 +1,61 @@
+body, html {
+    height: 100%;
+}
+
+.bg {
+    background-image: url("../images/league_background.jpg");
+
+    /* Full height */
+    height: 100%; 
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 500%;
+    font-family: 'PT Sans', sans-serif;
+
+    color: #1b1a1a;
+
+    padding-bottom: 20px;
+}
+
+h2 {
+    color: #1b1a1a;
+    font-weight: bold;
+    font-size: 250%;
+}
+
+input[type='radio'] { 
+    transform: scale(1); 
+}
+
+label {
+    color: #1b1a1a;
+    font-weight: bold;
+    font-size: 250%;
+}
+
+.jumbotron {
+    position: absolute;
+    background: rgba(64, 64, 64, 0.5);
+    margin-left: 100px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+#startBtn {
+    padding: 50px;
+    font-size: 400%;
+}
+
+#nextBtn {
+    padding: 10px;
+}
+
+
+
+
